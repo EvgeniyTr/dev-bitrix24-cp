@@ -1,0 +1,1 @@
+<?php  include($_SERVER['DOCUMENT_ROOT'] . '/api/cp/class/cloudpayments_cp.php');  $debug = true;  $cloudpayments_cp = new cloudpayments_cp();  if ($debug):    $cloudpayments_cp->Log("UNINSTALL_EVENT");    $cloudpayments_cp->Log($_REQUEST);    $cloudpayments_cp->Log($_POST);  endif;
